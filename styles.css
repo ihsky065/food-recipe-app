@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #EFE1C7;
+  overflow-x: hidden;
 }
 
 header {
@@ -24,6 +25,10 @@ select {
   font-size: 15px;
   font-weight: bold;
   border-radius: 8px;
+}
+
+option {
+  font-weight: bold;
 }
 
 .box-container {
@@ -57,4 +62,15 @@ select {
 
 .content-subtitle {
   margin-left: 23px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #6d7e47;
+  color: white;
+  font-size: 20px;
+  margin-bottom: -10px;
 }

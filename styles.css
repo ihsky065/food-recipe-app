@@ -11,3 +11,10 @@ header {
   border-bottom: 1px black solid;
   padding: 10px;
 }
+
+.box-container {
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(255, 248, 236);
+}

@@ -25,6 +25,7 @@ select {
   font-size: 15px;
   font-weight: bold;
   border-radius: 8px;
+  border: 0.5px solid #cf932b;
 }
 
 option {
@@ -34,9 +35,9 @@ option {
 .box-container {
   margin-bottom: 40px;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid #cf932b;
   border-radius: 15px;
-  background-color: rgb(255, 248, 236);
+  background-color: #fff8ec;
   display: flex;
   width: 80%;
   align-content: center;
@@ -46,6 +47,10 @@ option {
 
 .left-section {
   flex-basis: 30%;
+}
+
+.straight-line {
+  border: 0.5px solid #cf932b;
 }
 
 .right-section {

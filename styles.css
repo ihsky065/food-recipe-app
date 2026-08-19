@@ -4,15 +4,26 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
+  background-color: #EFE1C7;
 }
 
 header {
-  background-color: antiquewhite;
+  background-color: rgb(195, 209, 161);
   display: block; 
   border-bottom: 1px black solid;
   padding: 10px;
   width: 100%;
   margin-top: -10px;
+}
+
+select {
+  margin-bottom: 30px;
+  background-color: rgba(255, 153, 0, 0.692);
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px;
 }
 
 .box-container {

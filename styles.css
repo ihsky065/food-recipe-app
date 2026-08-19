@@ -14,7 +14,33 @@ header {
 
 .box-container {
   margin-top: 20px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 15px;
   background-color: rgb(255, 248, 236);
+  display: flex;
+  width: 70%;
+  align-content: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.left-section {
+  flex-basis: 30%;
+}
+
+.right-section {
+  flex-basis: 65%;
+}
+
+.right-section .text-content{
+  text-align: left;
+}
+
+.right-section ul, ol{
+  text-align: left;
+}
+
+.content-subtitle {
+  margin-left: 23px;
 }

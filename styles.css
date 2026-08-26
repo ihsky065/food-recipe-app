@@ -60,7 +60,11 @@ option {
 
 .right-section {
   flex-basis: 75%;
-  margin-top: 25px; 
+}
+
+img {
+  margin-bottom: 25px;
+  border-radius: 15px;
 }
 
 .right-section .text-content{
@@ -86,12 +90,11 @@ footer {
   margin-bottom: -10px;
 }
 
-img {
-  margin-bottom: 25px;
-  border-radius: 15px;
+.text-content {
+  margin-top: 35px;
 }
 
-@media only screen and (min-width: 770px) {
+@media screen and (min-width: 770px) {
   h1 {
     font-size: 30px;
   }
@@ -105,11 +108,17 @@ img {
   .left-section {
     margin-bottom: 30px;
   }
-  .right-section {
-    margin-top: 30px;
+  /*.right-section {
+     margin-top: 25px; 
   }
+  img {
+     margin-bottom: 25px; 
+  }*/
   header {
     width: 100%;
     margin: 0px;
   }
+  /* .straight-line {
+    margin-right: 0px;
+  } */
 }

@@ -24,7 +24,7 @@ header {
 
 select {
   margin-bottom: 30px;
-  background-color: rgba(255, 153, 0, 0.692);
+  background-color: rgb(255, 153, 0);
   color: white;
   padding: 10px;
   font-size: 15px;

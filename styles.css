@@ -55,11 +55,14 @@ option {
 
 .straight-line {
   border: 0.5px solid #cf932b;
-  margin-right: 20px;
+  /* margin-right: 20px; */
+  margin-bottom: 20px;
+  display: none;
 }
 
 .right-section {
   flex-basis: 75%;
+  /* margin-left: 15px; */
 }
 
 img {

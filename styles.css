@@ -38,7 +38,7 @@ option {
 .box-container {
   margin-bottom: 40px;
   padding: 10px;
-  border: 1px solid #cf932b;
+  border: 1px solid #ffd180;
   border-radius: 15px;
   background-color: #fff8ec;
   display: flex;
@@ -55,6 +55,7 @@ option {
 
 .straight-line {
   border: 0.5px solid #cf932b;
+  margin-right: 20px;
 }
 
 .right-section {
@@ -87,6 +88,7 @@ footer {
 
 img {
   margin-bottom: 25px;
+  border-radius: 15px;
 }
 
 @media only screen and (min-width: 770px) {

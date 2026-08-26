@@ -10,6 +10,8 @@ body {
   overflow-x: hidden;
   margin-top: -10px;
   margin-right: -10px;
+  background-image: 
+    url('images/wallpaper.png');
 }
 
 header {

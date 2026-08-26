@@ -50,7 +50,7 @@ option {
 }
 
 .left-section {
-  flex-basis: 35%;
+  flex-basis: 45%;
 }
 
 .straight-line {
@@ -58,7 +58,8 @@ option {
 }
 
 .right-section {
-  flex-basis: 65%;
+  flex-basis: 75%;
+  margin-top: 25px; 
 }
 
 .right-section .text-content{
@@ -84,7 +85,11 @@ footer {
   margin-bottom: -10px;
 }
 
-@media screen and (min-width: 770px) {
+img {
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 770px) {
   h1 {
     font-size: 30px;
   }
@@ -92,15 +97,8 @@ footer {
     margin-right: -20px; /* gap issue */
   }
   .box-container {
-    display: flex; /*   change display issue */
+     display: flex;   /*change display issue */
     flex-direction: row;
-    width: 80%;
-  }
-  .left-section {
-    flex-basis: 100%;
-  }
-  .right-section {
-    flex-basis: 100%;
   }
   .left-section {
     margin-bottom: 30px;

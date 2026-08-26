@@ -84,7 +84,7 @@ footer {
   margin-bottom: -10px;
 }
 
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 770px) {
   h1 {
     font-size: 30px;
   }
@@ -92,7 +92,7 @@ footer {
     margin-right: -20px; /* gap issue */
   }
   .box-container {
-    display: block; /*   change display issue */
+    display: flex; /*   change display issue */
     flex-direction: row;
     width: 80%;
   }

@@ -24,14 +24,19 @@ async function fetchRecipesData () {
 function displayRecipeData () {
     fetchRecipesData ()
     .then((recipeData) => {
-        recipeBoxContainer.innerHTML = formatRecipeData (recipeData);
+        bodyContainer.innerHTML = formatRecipeData (recipeData);
     })
     .catch((error) => {
         console.log('Error', error);
     })
 }
 
-displayRecipeData ();
+let intervalID;
+
+intervalID = setInterval(() =>{
+    displayRecipeData ();
+}, 10);
+
 
 function formatRecipeData (recipeData) {
     const recipes = recipeData.recipes;

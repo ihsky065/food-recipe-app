@@ -29,3 +29,5 @@ function displayRecipeData () {
         console.log('Error', error);
     })
 }
+
+displayRecipeData ();

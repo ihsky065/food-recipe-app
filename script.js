@@ -7,6 +7,8 @@ const imageBlock = document.getElementById('image-block');
 const ingredientsList = document.getElementById('ingredients-list');
 const instructionsList = document.getElementById('instructions-list');
 
+const recipeBoxContainer = document.getElementsByClassName('box-container');
+
 async function fetchRecipesData () {
     const response = await fetch('https://dummyjson.com/recipes');
 

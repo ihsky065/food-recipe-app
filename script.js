@@ -17,3 +17,13 @@ async function fetchRecipesData () {
         throw new Error('Error fetching food recipes data');
     }
 }
+
+function displayRecipeData () {
+    fetchRecipesData ()
+    .then((recipeData) => {
+        recipeBoxContainer.innerHTML = formatRecipeData (recipeData);
+    })
+    .catch((error) => {
+        console.log('Error', error);
+    })
+}

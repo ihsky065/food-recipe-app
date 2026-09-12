@@ -42,9 +42,9 @@ function formatRecipeData (recipeData) {
         divContainer.innerHTML =`
         <div class="box-container">
             <div class="left-section">
-                <h4 id="food-id"><b>Food ID: ${recipe.id}</b></h4>
+                <h4 id="food-id">Food ID: <b>${recipe.id}</b></h4>
                 <p>Name:</p>
-                <p id="food-name">${recipe.name}</p>
+                <p id="food-name"><b>${recipe.name}</b></p>
                 <img src="${recipe.image}" alt="food example" width="160px">
             </div>
             <div class="right-section">

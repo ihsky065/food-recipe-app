@@ -8,7 +8,7 @@ const ingredientsList = document.getElementById('ingredients-list');
 const instructionsList = document.getElementById('instructions-list');
 
 // const recipeBoxContainer = document.getElementsByClassName('box-container');
-const largeContainer = document.getElementById('large-container');
+const bodyContainer = document.getElementById('body-container');
 
 async function fetchRecipesData () {
     const response = await fetch('https://dummyjson.com/recipes');
@@ -35,11 +35,12 @@ displayRecipeData ();
 
 function formatRecipeData (recipeData) {
     const recipes = recipeData.recipes;
-    largeContainer.innerHTML = '';
+    bodyContainer.innerHTML = '';
     let formatContainerData = [];
 
     for (const recipe of recipes) {
-        formatContainerData.push(`
+        const divContainer = document.createElement('div');
+        divContainer.innerHTML =`
         <div class="box-container">
         <div class="left-section">
            <h4 id="food-id"><b>Food ID: ${recipe.id}</b></h4>
@@ -63,7 +64,7 @@ function formatRecipeData (recipeData) {
           </div>
        </div>
       </div> 
-        `)
+        `;
     }
 
     return formatContainerData.join('');

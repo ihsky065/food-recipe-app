@@ -31,12 +31,7 @@ function displayRecipeData () {
     })
 }
 
-let intervalID;
-
-intervalID = setInterval(() =>{
-    displayRecipeData ();
-}, 10);
-
+displayRecipeData();
 
 function formatRecipeData (recipeData) {
     const recipes = recipeData.recipes;
@@ -70,4 +65,5 @@ function formatRecipeData (recipeData) {
         `;
         bodyContainer.appendChild(divContainer);
     }
+    return bodyContainer.innerHTML;  
 }

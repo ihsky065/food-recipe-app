@@ -36,7 +36,6 @@ displayRecipeData ();
 function formatRecipeData (recipeData) {
     const recipes = recipeData.recipes;
     bodyContainer.innerHTML = '';
-    let formatContainerData = [];
 
     for (const recipe of recipes) {
         const divContainer = document.createElement('div');
@@ -65,7 +64,6 @@ function formatRecipeData (recipeData) {
        </div>
       </div> 
         `;
+        bodyContainer.appendChild(divContainer);
     }
-
-    return formatContainerData.join('');
 }

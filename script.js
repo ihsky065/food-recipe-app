@@ -35,6 +35,7 @@ displayRecipeData ();
 
 function formatRecipeData (recipeData) {
     const recipes = recipeData.recipes;
+    largeContainer.innerHTML = '';
     let formatContainerData = [];
 
     for (const recipe of recipes) {

@@ -22,10 +22,15 @@ header {
   width: 100%;
 }
 
+h1 {
+  font-size: 25px;
+}
+
 h2 {
   background-color: #f5bd54;
   padding: 10px 20px;
   border-radius: 35px;
+  font-size: 20px;
 }
 
 select {
@@ -33,7 +38,7 @@ select {
   background-color: rgb(255, 153, 0);
   color: white;
   padding: 10px;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   border-radius: 8px;
   border: 0.5px solid #cf932b;
@@ -120,6 +125,12 @@ footer {
 @media screen and (min-width: 770px) {
   h1 {
     font-size: 30px;
+  }
+  h2 {
+  font-size: 25px;
+  }
+  select {
+    font-size: 15px;
   }
   body {
     margin-right: -20px; /* gap issue */

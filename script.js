@@ -59,7 +59,7 @@ function formatRecipeData (recipeData) {
     return formatData.join('').split('/-/');
 }
 
-function displaySelectedID(recipeData) {  
+function displaySelectedID() {  
     const optionIdInput = document.getElementById('id-option');
 
     if (optionIdInput.value == 'first-option') {

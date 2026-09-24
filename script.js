@@ -31,7 +31,6 @@ function formatRecipeData (recipeData) {
     const recipes = recipeData.recipes;
 
     for (const recipe of recipes) {
-        let ingredientsList = document.getElementById('ingredients-list');
         const arrangeList = recipe.ingredients.map(list => {
             return `<li>${list}</li>`
         })

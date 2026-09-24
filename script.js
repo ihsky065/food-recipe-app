@@ -30,7 +30,13 @@ let formatData = [];
 function formatRecipeData (recipeData) {
     const recipes = recipeData.recipes;
 
+
     for (const recipe of recipes) {
+        let ingredientsList = document.getElementById('ingredients-list');
+        const arrangeList = recipe.ingredients.map(list => {
+            return `<li>${list}</li>`
+        })
+
         formatData.push (`
         <div class="box-container">
             <div class="left-section">
@@ -43,7 +49,7 @@ function formatRecipeData (recipeData) {
                 <div class="text-content-first">
                 <p class="content-subtitle"><b>Ingredients:</b></p>
                 <ul id="ingredients-list">
-                    ${recipe.ingredients}
+                    ${arrangeList}
                 </ul>
                 </div>
                 <div class="text-content-second">

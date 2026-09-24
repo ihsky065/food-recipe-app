@@ -35,6 +35,10 @@ function formatRecipeData (recipeData) {
             return `<li>${list}</li>`
         })
 
+        const arrangeListInstructions = recipe.instructions.map(list => {
+            return `<li>${list}</li>`
+        })
+
         formatData.push (`
         <div class="box-container">
             <div class="left-section">
@@ -53,7 +57,7 @@ function formatRecipeData (recipeData) {
                 <div class="text-content-second">
                 <p class="content-subtitle"><b>Instructions:</b></p>
                 <ol id="instructions-list">
-                    ${recipe.instructions}
+                    ${arrangeListInstructions}
                 </ol>
             </div>
             </div>

@@ -126,6 +126,10 @@ footer {
   line-height: 60%;
 }
 
+#instructions-list {
+  line-height: 100%;
+}
+
 @media screen and (min-width: 770px) {
   h1 {
     font-size: 30px;

@@ -64,6 +64,7 @@ option {
 
 .left-section {
   flex-basis: 45%;
+  align-content: center;
 }
 
 .right-section {

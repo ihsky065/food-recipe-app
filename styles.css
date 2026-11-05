@@ -131,6 +131,16 @@ footer {
   line-height: 100%;
 }
 
+#instruction-message {
+  margin-top: -10px;
+  background-color: #f8a515;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 430px;
+
+}
+
 @media screen and (min-width: 770px) {
   h1 {
     font-size: 30px;

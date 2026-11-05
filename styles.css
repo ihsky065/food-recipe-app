@@ -137,8 +137,7 @@ footer {
   padding: 10px;
   border-radius: 10px;
   font-weight: bold;
-  width: 430px;
-
+  width: 230px;
 }
 
 @media screen and (min-width: 770px) {
@@ -170,5 +169,8 @@ footer {
   header {
     width: 100%;
     margin: 0px;
+  }
+  #instruction-message {
+    width: 430px;
   }
 }
